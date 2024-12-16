@@ -1,0 +1,193 @@
+.all-grid {
+    /*ola*/
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 30px;
+}
+@media (max-width:1050px) {
+    .all-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
+@media (max-width:710px) {
+    .all-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.soral {
+    display: inline-block;
+    width: 37px;
+    border-radius: 36px;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 50px 1fr ;
+}
+
+.title {
+    font-family: arial;
+    font-weight: 550;
+    margin-top: 0px;
+    font-size:13.5px ;
+}
+.name {
+    color: rgb( 96, 96, 96);
+    margin-bottom: 0px;
+    font-size: 11.5px;
+    font-family: arial;
+}
+.watches {
+    color:rgb( 96, 96, 96);
+    margin-top: 5px;
+    font-size: 11.5px;
+    font-family: arial;
+}
+
+.video {
+    display: inline-block;
+    width: 100%;
+}
+.sora {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.thumb {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.time {
+    background-color: black;
+    color:white;
+    position: absolute;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 1px;
+    top: 85%;
+    right: 3%;
+    transform: translate(3%,-75%);
+}
+
+
+
+.final {
+    position: relative;
+    display: inline-block;
+
+}
+.roqaya {
+    position: absolute;
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 230px;
+    top: 46px;
+    right: -193px;
+    transition: opacity 0.15s;
+    font-family: arial;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    pointer-events: none;
+}
+.jubran {
+    border-radius: 50px;
+    width: 52px;
+    margin-right: 7px;
+    margin-left: 0px;
+    
+}
+.snapc:hover .roqaya{
+    opacity: 1;
+    pointer-events: auto;
+}
+.snapc {
+    position: relative;
+    z-index: 400;
+}
+
+
+
+
+.final2 {
+    position: relative;
+    display: inline-block;
+
+}
+.roqaya2 {
+    position: absolute;
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 190px;
+    top: 45px;
+    right: -155px;
+    transition: opacity 0.15s;
+    font-family: arial;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    pointer-events: none;
+}
+.jubran {
+    border-radius: 50px;
+    width: 52px;
+    margin-right: 7px;
+    margin-left: 0px;
+    
+}
+.snapc2:hover .roqaya2{
+    opacity: 1;
+    pointer-events: auto;
+}
+.snapc2 {
+    position: relative;
+    z-index: 400;
+}
+
+
+
+.final3 {
+    position: relative;
+    display: inline-block;
+
+}
+.roqaya3 {
+    position: absolute;
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 190px;
+    top: 45px;
+    right: -155px;
+    transition: opacity 0.15s;
+    font-family: arial;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    pointer-events: none;
+}
+.jubran {
+    border-radius: 50px;
+    width: 52px;
+    margin-right: 7px;
+    margin-left: 0px;
+    
+}
+.snapc3:hover .roqaya3{
+    opacity: 1;
+    pointer-events: auto;
+}
+.snapc3 {
+    position: relative;
+    z-index: 400;
+}
